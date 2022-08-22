@@ -1,0 +1,183 @@
+@font-face {
+    font-family: showCard;
+    src: url(/Font/showcard-gothic.ttf);
+}
+body{
+    background-color: rgb(126, 216, 90);
+
+}
+
+.conteiner{
+    width:950px;
+    height: auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    font-family: showCard;
+    font-size: 40px;
+    color: rgb(233, 144, 55);
+}
+p{
+    font-family:cursive;
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+}
+
+#fundogame{
+    width: 950px;
+    height: 630px;
+    background-image: url(/img/fundo-baixaQualidade.png);
+    /* background-size: 2000px 630px;/* AJUSTANDO OTAMANHO DA IMAGEM */
+    border-style: solid;
+    border-color: forestgreen;
+}
+
+#inicio{
+    width:450px ;
+    height:250px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: rgb(172, 70, 70);
+    text-align: center ;
+    padding: 10px;
+    
+}
+
+#jogador{
+    width:65px;
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    top: 179px;
+    /* background-color: black; */
+    background-image: url(/img/jogador-80x90.png);
+
+}
+#arvore{
+    height: 630px;
+    width: 300px;
+    position: absolute;
+    /* left: 0px; */
+    margin-top: 0px;
+    background-image: url(/img/Arvore2.png);
+    background-size:300px 630px;
+}
+#banana1{
+    height: 50px;
+    width: 66px;
+    position: absolute;
+    left: 900px;
+    top:200px;
+    background-image: url(/img/banana11.png);
+}
+#banana2{
+    height: 55px;
+    width: 66px;
+    position: absolute;
+    left: 870px;
+    top:290px;
+    background-image: url(/img/banana22.png);
+}
+#banana3{
+    height: 50px;
+    width: 66px;
+    position: absolute;
+    left: 870px;
+    top:500px;
+    background-image: url(/img/banana33.png);
+}
+
+#tronco1{
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    left: 840px;
+    top:250px;
+    background-image: url(/img/Tronco1.png);
+}
+#tronco2{
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    left: 820px;
+    top:350px;
+    background-image: url(/img/Tronco2.png);
+}
+#pedra{
+    height: 55px;
+    width: 43px;
+    position: absolute;
+    left: 900px;
+    top:500px;
+    background-image: url(/img/pedra.png);
+    animation:play .70s steps(4) infinite;
+}
+#explosao1{
+    height: 95px;
+    width: 98px;
+    position: absolute;
+}
+#explosao2{
+    height: 95px;
+    width: 98px;
+    position: absolute;
+}
+#explosao3{
+    height: 95px;
+    width: 98px;
+    position: absolute;
+   
+}
+#energia{
+    height: 45px;
+    width: 130px;
+   position: absolute;
+    margin-left:800px;
+    margin-top:20x;
+    background-image: url(/img/energia2.png);
+}
+#placar{
+    height: 50px;
+    width: 450px;
+    font-family: showCard;
+    position: absolute;
+    margin-left:500px;
+    margin-top:580px;
+    /* background-color: blueviolet; */
+}
+
+
+@keyframes play{
+    from{background-position: 0px;}
+    to{background-position:-177px ;}
+}
+
+.anima1{
+    /* animation: none; */
+    /* animation-play-state:paused; */
+    animation:play2 .60s steps(4) paused;
+}
+
+@keyframes play2{
+    from{background-position-y:0px;}
+    to{background-position-y: -382px;}
+}
+@-webkit-keyframes play2{
+    from{background-position-y:0px;}
+    to{background-position-y: -382px;}
+}
+#fim{
+    width: 350px;
+    height: 200px;
+   
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+	text-align:center;
+	padding:10px;
+
+}

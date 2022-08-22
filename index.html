@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link  href="/style/style.css" rel="stylesheet" type="text/css">
+
+    <title>Jungle Game</title>
+</head>
+<body>
+    <div class="conteiner"><!--Div conteiner-->
+        <div id="fundogame">
+            <div id="inicio" onclick="start()"><!--div pa\ra tela inicial do jogo-->
+            <h1>J u n g l e</h1>
+            <p>Utilize a tecla <strong>Q</strong>  para movimentar o macaco para cima e a tecla <strong>Z</strong> para movimentar o macaco para baixo</p>
+            <p>Clique aqui para iniciar!</p>
+            </div><!--Fim da Div inicio-->
+        </div><!--Fim da Div Fundogame-->
+    </div><!--Fim da Div conteiner-->
+
+<!--Sons do jogo-->
+
+<audio src="sounds/gameOver.wav" preload="auto" id="somGameOver"></audio>
+<audio src="sounds/somFundo.wav" preload="auto" id="somFundo"></audio>
+
+
+<script type="text/javascript" src="/main/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/main/main.js"></script>
+<script ype="text/javascript"src="/main/jquery-collision.min.js"></script>
+</body>
+</html>
