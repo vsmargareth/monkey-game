@@ -1,2 +1,2 @@
-# jogo-macaco
-Jogo desenvolvido em html, css e javascript. O macaco precisa pegar o maior número de bananas e desviar dos obstáculos, o jogo possui um contador de pontos e quadro de corações. Quando os corações acabam aparece a tela de game over e a opção de reiniciar o jogo.
+#  Monkey Game
+Game developed in html, css and javascript. The monkey needs to catch as many bananas and dodge obstacles, the game has a point counter and heart board. When the hearts run out, the game over screen appears and the option to restart the game.
